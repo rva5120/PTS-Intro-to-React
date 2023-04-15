@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import Annie from './Annie_Sniffs.gif';
-import List from './List.js';
-import Form from './Form.js';
+import Annie from '../assets/Annie_Sniffs.gif';
+import List from '../components/List/index.js';
+import Form from '../components/Form/index.js';
 import './App.css';
 
 class App extends Component {
@@ -29,8 +29,8 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <div className="Container">
-          <List list={this.state.list}/>
-          <Form handleItemAdded={this.handleItemAdded}/>
+          <List list={this.state.list} />
+          <Form handleItemAdded={this.handleItemAdded} />
         </div>
       </div>
     );
