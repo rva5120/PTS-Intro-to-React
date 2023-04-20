@@ -1,0 +1,3 @@
+class Dashboard extends Component {
+
+}

@@ -21,11 +21,11 @@ class Form extends Component {
     return (
       <div className="Form">
       	<form onSubmit={this.handleItemAdded}>
-      	<label>
-      		My Form:
-      		<input type="text" value={this.state.newItem} onChange={this.handleChange}/>
-      	</label>
-      	<button>Add to list</button>
+					<label>
+						My Form:
+						<input type="text" value={this.state.newItem} onChange={this.handleChange}/>
+					</label>
+					<button id="add-btn">Add to list</button>
       	</form>
       </div>
     );
